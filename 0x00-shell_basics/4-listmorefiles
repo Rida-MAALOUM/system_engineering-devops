@@ -1,2 +1,2 @@
 #!/bin/bash
-[Got]ls -la
+ls -la
