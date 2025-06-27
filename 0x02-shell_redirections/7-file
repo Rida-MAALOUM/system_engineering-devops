@@ -1,5 +1,2 @@
 #!/bin/bash
-FILENAME="'\"Best School\"'\\*$\\?*****:)"
-touch "$FILENAME"
-echo "Best School" > "$FILENAME"
-
+echo "Best School" > "*'\"Best School\"'*\$?*****:)"
