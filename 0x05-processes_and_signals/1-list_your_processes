@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Display only PID 1 with header
-ps -e -o pid | grep -E '^ *PID$|^ *1$'
-
+# Lists running processes showing their PIDs only
+ps -e -o pid
