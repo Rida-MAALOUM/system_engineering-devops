@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Displays all currently running processes
-ps -axf
+# Lists running processes showing PID and the command used to start them
+ps -eo pid,command
+
