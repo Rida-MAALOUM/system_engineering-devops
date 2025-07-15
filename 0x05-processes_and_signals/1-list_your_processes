@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Lists only PID 1 with header
-echo "PID"
-echo "1"
+# Display only PID 1 with header
+ps -e -o pid | grep -E '^ *PID$|^ *1$'
+
