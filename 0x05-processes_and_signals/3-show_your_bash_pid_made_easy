@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-cat /proc/*/comm 2>/dev/null | grep -wn bash | cut -d: -f1 | xargs -I{} basename $(dirname {}) | xargs -I{} echo "{} bash"
