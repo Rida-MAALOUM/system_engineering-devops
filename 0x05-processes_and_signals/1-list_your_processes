@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Lists running processes showing PID and the command used to start them
-ps -eo pid,command
+# Lists running processes with PID and command
+ps -e -o pid,command
 
