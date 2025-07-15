@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Lists running processes showing only their PIDs
-ps -e -o pid --no-headers
+# Lists running processes showing their PIDs
+ps -e -o pid
+
