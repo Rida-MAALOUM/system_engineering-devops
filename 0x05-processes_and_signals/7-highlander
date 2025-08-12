@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Script that handles SIGTERM signal gracefully
-trap "echo I am invincible!!!" SIGTERM
+trap "echo OK" SIGTERM
 while true
 do
   echo "To infinity and beyond"
