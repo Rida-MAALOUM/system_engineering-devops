@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Script that handles SIGTERM signal gracefully
-trap "echo OK" SIGTERM
+trap 'echo OK; exit 0' SIGTERM
 while true
 do
   echo "To infinity and beyond"
   sleep 2
 done
+
