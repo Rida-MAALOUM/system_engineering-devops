@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# Traps SIGTERM
-
+# Script that handles SIGTERM signal gracefully
 trap "echo I am invincible!!!" SIGTERM
-
-while true; do
-    echo To infinity and beyond
-    sleep 2
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
 done
